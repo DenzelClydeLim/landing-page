@@ -18,15 +18,16 @@ h4 {
     margin: 4px 0;
 }
 
-a {
-    text-decoration: none;
-    color: #E5E7EB;
-}
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    ;
 }
 
 .header-section {
@@ -42,6 +43,12 @@ ul {
     font-size: 18px;
     font-weight: 700;
     flex: none;
+    color: #F9FAF8;
+}
+
+li a {
+    color: #E5E7EB;
+
 }
 
 .hero-section {
@@ -71,11 +78,13 @@ ul {
 }
 
 .hero-content button {
-    padding: 8px 16px;
+    padding: 10px 36px;
     font-weight: 600;
-    background-color: royalblue;
+    background-color: #3882F6;
     border: none;
     border-radius: 8px;
+    font-size: 16px;
+    color: #E5E7EB;
 }
 
 .hero-image {
@@ -99,6 +108,7 @@ ul {
     font-size: 36px;
     font-weight: 900;
     margin: 36px 0;
+    color: #1F2937;
 }
 
 .characters {
@@ -159,7 +169,7 @@ ul {
 .signup-area {
     display: flex;
     padding: 45px 90px;
-    background-color: #3C82F6;
+    background-color: #3882F6;
     width: 750px;
     border-radius: 10px;
     justify-content: space-between;
@@ -189,10 +199,13 @@ ul {
 .signup-btn {
     border: 2px solid #fff;
     background-color: transparent;
-    color: #fff;
     padding: 8px 30px;
     border-radius: 8px;
     font-weight: 700;
+}
+
+button a {
+    color: #F9FAF8;
 }
 
 
